@@ -1,0 +1,23 @@
+.todo-list {
+
+}
+
+.todo-list > ul {
+  margin: 0;
+  padding: var(--spacer);
+  list-style: none;
+
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.todo-list > ul > li {
+  padding: var(--spacer) calc(var(--spacer) * 2);
+  margin-bottom: var(--spacer);
+
+  font-size: 1.4rem;
+}
+
+.todo-list > ul > li:last-of-type {
+  margin-bottom: 0;
+}
